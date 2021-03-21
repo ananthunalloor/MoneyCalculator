@@ -63,6 +63,8 @@ export default {
     id: 'G-5MS35ELLZZ'
   },
   'google-adsense': {
-    id: 'ca-pub-4383038154356488'
+    id: 'ca-pub-4383038154356488',
+    test: true,
+    pageLevelAds: true
   }
 }
