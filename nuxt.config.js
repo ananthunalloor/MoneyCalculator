@@ -33,7 +33,8 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
-    '@nuxtjs/google-analytics'
+    '@nuxtjs/google-analytics',
+    '@nuxtjs/google-adsense'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -60,5 +61,8 @@ export default {
 
   googleAnalytics: {
     id: 'G-5MS35ELLZZ'
+  },
+  'google-adsense': {
+    id: 'ca-pub-4383038154356488'
   }
 }

@@ -32,7 +32,7 @@
       <div>
         <br />
         <p>
-          Your initial deposit needs to be <b>{{ rateofreturns }}</b>
+          Your Rate of Returns is <b>{{ rateofreturns }}</b>
         </p>
         <br />
         <p>
