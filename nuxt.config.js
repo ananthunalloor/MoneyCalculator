@@ -34,15 +34,16 @@ export default {
     // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
     '@nuxtjs/google-analytics',
-    '@nuxtjs/google-adsense'
   ],
-
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+    ['@nuxtjs/google-adsense', {
+      id: 'ca-pub-4383038154356488'
+    }]
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -62,9 +63,4 @@ export default {
   googleAnalytics: {
     id: 'G-5MS35ELLZZ'
   },
-  'google-adsense': {
-    id: 'ca-pub-4383038154356488',
-    test: true,
-    pageLevelAds: true
-  }
 }
